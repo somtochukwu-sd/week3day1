@@ -1,0 +1,15 @@
+<section class="section">
+  <h2 class="section__title">Shoes and Bags</h2>
+  <p class="section__intro">Matching shoe and bag sets to complete your look.</p>
+
+  <!-- Task d: the SAME reusable colour picker, given the bag colours -->
+  <app-select-color [colors]="bagColors" label="Select Shoe / Bag Color"></app-select-color>
+
+  <div class="product-grid">
+    <article class="product-card" *ngFor="let product of products">
+      <div class="product-card__image"></div>
+      <h3>{{ product.name }}</h3>
+      <p class="product-card__price">{{ product.price }}</p>
+    </article>
+  </div>
+</section>

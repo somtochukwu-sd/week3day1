@@ -1,0 +1,18 @@
+/* Global (external) stylesheet - linked in angular.json under "styles". */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf8f5;
+  color: #2b2b2b;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+}

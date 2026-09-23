@@ -1,0 +1,15 @@
+<section class="section">
+  <h2 class="section__title">Laces</h2>
+  <p class="section__intro">Premium lace fabrics for every occasion.</p>
+
+  <!-- Task d: the reusable colour picker, given the lace colours -->
+  <app-select-color [colors]="laceColors" label="Select Lace Color"></app-select-color>
+
+  <div class="product-grid">
+    <article class="product-card" *ngFor="let product of products">
+      <div class="product-card__image"></div>
+      <h3>{{ product.name }}</h3>
+      <p class="product-card__price">{{ product.price }}</p>
+    </article>
+  </div>
+</section>

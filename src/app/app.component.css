@@ -1,0 +1,24 @@
+.site-header {
+  background: #6d4423;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.site-header p {
+  margin: 0;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-footer {
+  background: #2b2b2b;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,35 @@
+.select-color {
+  margin: 1rem 0;
+}
+
+.select-color__label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b6b6b;
+}
+
+.select-color__swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  padding: 0;
+}
+
+.swatch--active {
+  border-color: #8a5a2b;
+  box-shadow: 0 0 0 3px rgba(138, 90, 43, 0.25);
+}
+
+.select-color__chosen {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
